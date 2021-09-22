@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid img" v-bind:style="{ 'backgroundImage': 'url(' + nasaData.hdurl + ')' }">
+  <div class="container-fluid img" v-bind:style="{ 'backgroundImage': 'url(' + nasaData.url + ')' }">
     <div class="row">
       <div class="col-3">
         <Calendar />
